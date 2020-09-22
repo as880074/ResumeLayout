@@ -1,3 +1,52 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 .warp{
     width: 1200px;
     margin: 0 auto;
@@ -12,9 +61,18 @@
 }
 .title{
     display: flex;
-    text-align: center;
     border-bottom: 2px solid #000000;
+    margin-bottom: 72px;
 }
+.name h1{
+    width: 288px;    
+}
+.title h1{
+    font-family: 'Andale Mono',Regular;
+    font-size: 80px;
+    display: block;
+    text-align: left;
+} 
 .container .title h2 {
     font-family: '蘋方-繁',Medium;
     font-size: 32px;
@@ -28,4 +86,47 @@
     color: #A00404;
     font-size: 24px;
     line-height: 32px;
+  }
+
+  .list li p{  
+  }
+  .skillContainer{
+    background: #415165 0% 0% no-repeat padding-box;
+    width:1200px;
+    color: #ffffff;
+    padding: 24px;
+  }
+  .skillContainer .title{
+      display: flex;
+      justify-content:center;
+      align-content: center;
+      width: 996px;
+      margin-right:auto;
+      margin-left:auto;
+  }
+  .skillContainer .title h1{
+      font-family: '蘋方-繁',Medium;
+      font-size: 32px;
+  }
+  .skillContainer .title span{
+    margin-left:16px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Roboto','Roboto';
+  }
+  .skillContainer ul{
+      display: block;
+      margin: 0 auto;
+      width: 216px;
+      padding-left: 24px;
+      border-left: #FFFFFF 1px solid;
+  }
+  .skillItem{
+      display: block;
+      width: 192px;
+      margin-bottom: 16px;
+      text-align: left;
+      font: Roboto normal 300 24px/36px Roboto;
+      color: #FFFFFF;
+      opacity: 1;
   }
