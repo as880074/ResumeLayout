@@ -1,0 +1,31 @@
+.warp{
+    width: 1200px;
+    margin: 0 auto;
+}
+.line{
+    top: 252px;
+    left: 360px;
+    width: 1200px;
+    height: 0px;
+    border: 2px solid #000000;
+    opacity: 1;
+}
+.title{
+    display: flex;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+}
+.container .title h2 {
+    font-family: '蘋方-繁',Medium;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 45px;
+    margin-right: 16px;
+  }
+.container .title span{
+    font-family:'Roboto',Medium;
+    margin: auto 0;
+    color: #A00404;
+    font-size: 24px;
+    line-height: 32px;
+  }
