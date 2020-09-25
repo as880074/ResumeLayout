@@ -48,6 +48,7 @@ table {
 }
 
 .warp{
+    padding-top: 48px;
     width: 1200px;
     margin: 0 auto;
 }
@@ -60,12 +61,11 @@ table {
     opacity: 1;
 }
 .name{
-    padding-bottom: 24px;
+    padding-bottom: 22px;
     margin-bottom: 48px;
 }
 .photo{
-    margin-bottom: 55px;
-    
+    margin-bottom: 45px; 
 }
 .name{
     border-bottom: 2px solid #000000;
@@ -79,8 +79,9 @@ table {
 } 
 .container .title{
     display:flex;
+    padding-bottom: 8px;
     border-bottom: 1px solid #000000;
-    margin-bottom: 24px;
+    margin-bottom: 15px;
 }
 .container .title h2 {
     font-family:'PingFang TC','蘋方-繁',Medium;
@@ -153,11 +154,17 @@ table {
       display: flex;
       justify-content:center;
       padding: 8px;
-      width: 996px;
+      width: 980px;
       border-bottom: 1px solid #FFFFFF;
       margin-left:  auto;
       margin-right: auto;
       margin-bottom: 40px;
+  }
+  .box{
+    padding-left: 30px;
+    display: flex;
+    justify-content:start;
+    width: 216px;
   }
   .skillContainer .title h1{
       font-family: '蘋方-繁',Medium;
@@ -223,8 +230,12 @@ table {
       width: 642px;
       margin-bottom: 24px;
   }
-  .experinceSkill h2{
-    font-style: 24px;
+  .experinceSkill h1{
+    font-size: 24px;
+}
+.experinceSkill p{
+  font: normal normal 300 20px/30px PingFang TC;
+  font-size: 20px;
 }
 .experinceSkill img{
     margin-top: 8px;
